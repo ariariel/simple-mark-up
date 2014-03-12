@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .box{
+    position: relative;
+    top: 20%;
+    left:20%;
+    height: 60%;
+    width:60%;
+  }
+  .tl{
+    background: blue;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+    
+  }
+  .tr{
+    background: red;
+    position:absolute;
+    top: 0%;
+    left:20%;
+    height: 20%;
+    width: 80%;
+    border: 1px solid black;
+    
+  }
+  .br{
+    background-color:orange;
+    position: absolute;
+    top:20%;
+    left: 80%;
+    height: 80%;
+    width: 20%;
+    border: 1px solid black;
+    
+  }
+  .bl{
+    background-color: green;
+    position: absolute;
+    top: 80%;
+    left:0%;
+    height: 20%;
+    width: 80%;
+    border:1px solid black;
+  }
+</style>
+</head>
+<body>
+<div class="box">
+  <div class="box">
+    <div class="box">
+      <div class="box">
+        <div class="tl"></div>
+        <div class="tr"></div>
+        <div class="br"></div>
+        <div class="bl"></div>
+      </div>
+      <div class="tl"></div>
+      <div class="tr"></div>
+      <div class="br"></div>
+      <div class="bl"></div>
+    </div>
+    <div class="tl"></div>
+    <div class="tr"></div>
+    <div class="br"></div>
+    <div class="bl"></div>
+  </div>
+  <div class="tl">B<br>l<br>u<br>e</div>
+  <div class="tr">Red</div>
+  <div class="br">O<br>r<br>a<br>n<br>g<br>e</div>
+  <div class="bl">Green</div>
+</div>
+</body>
+</html>
